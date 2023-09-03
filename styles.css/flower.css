@@ -49,13 +49,14 @@ background: url(<path-to-image>), rgb(193, 151, 151) 50% / cover no-repeat;
 }
 .featured{
     text-align: center;
+    margin-top: 120px;
 }
 .featured-title{
     color: #272727;
     font-size: 40px;
     font-weight:600;
     text-align: center;
-    margin-top:200px;
+    /* margin-top:4rem; */
     margin-bottom:0px;
 }
 .feature-content{
@@ -67,7 +68,7 @@ font-weight:300px;
 .flowers{
     display: flex;
     text-align: center;
-    margin-top:100px;
+    margin-top:10px;
     gap:20px;
 }
 .about-flowers{
@@ -93,4 +94,48 @@ width: 310px;
 height: 420px;
 padding:70px 50px 0px 50px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.main-menu{
+width: 1450px;
+height: 520px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+text-align: center;
+justify-content: space-around;
+}
+.main-menu-related{
+width: 550px;
+height: 200px;
+text-align: center;
+}
+.title-discount{
+padding:100px 20px 0px 0px;
+color: #272727;
+font-size: 40px;
+font-weight: 600px;
+margin-bottom:20px;
+}
+.menu-title{
+width: 594px;
+color: rgba(39, 39, 39, 0.60);
+font-size: 16px;
+font-weight:300px;
+margin-top:0px;
+}
+.font-style{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.menu-btn{
+color: #FFF;
+font-size: 20px;
+font-weight: 500px;
+}
+.menu-img{
+    width: 318px;
+height: 420px;
+padding: 50px 0px 100px 0px;
 }
