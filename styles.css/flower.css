@@ -61,7 +61,6 @@ background: url(<path-to-image>), rgb(193, 151, 151) 50% / cover no-repeat;
 }
 .feature-content{
 color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
 font-size: 16px;
 font-weight:300px;
 }
@@ -138,4 +137,41 @@ font-weight: 500px;
     width: 318px;
 height: 420px;
 padding: 50px 0px 100px 0px;
+}
+.flower-collection{
+    display: flex;
+    margin-bottom: 100px;
+}
+.img-work{
+    width: 330px;
+    height: 350px; 
+  padding-right: 20px;
+}
+.deals{
+margin:0px;
+width: 1440px;
+height: 500px;
+border-radius:8px;
+background:url("../Rectangle\ 9.png") no-repeat;
+}
+.update-title{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight:700;
+padding:150px 0px 0px 0px;
+margin-bottom:0px;
+}
+.update-announce{
+    font-weight: 300px;
+    text-align: center;
+    font-size:18px;
+    padding:5px 0px 20px 0px;
+}
+.take-input{
+    width:600px;
+    height:50px;
+    margin-left:350px;
+    border: 0px;
+    background:#FFF;
 }
