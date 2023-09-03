@@ -3,12 +3,11 @@ font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 }
 .header{
-width: 1900px;
+width: 1250px;
 height: 600px;
 background: rgba(229, 26, 70, 0.1);
-padding-top:50px;
-padding-left:200px;
-padding-right:200px;
+padding-left:172px;
+padding-right:40px;
 }
 .title{
 width: 708px;
@@ -47,4 +46,21 @@ border: 0px;
 width: 500px;
 height: 600px;
 background: url(<path-to-image>), rgb(193, 151, 151) 50% / cover no-repeat;
+}
+.featured{
+    text-align: center;
+}
+.featured-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight:600;
+    text-align: center;
+    margin-top:200px;
+    margin-bottom:0px;
+}
+.feature-content{
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 16px;
+font-weight:300px;
 }
